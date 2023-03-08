@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    color: #000;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.main-h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 100px 0px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/*  style for the "VISIT IBADAN BUTTON" */
+#hero-header {
+    font-size: 48px;
+    font-weight: bolder;
+    border: 5px solid lightblue;
+    box-shadow: 5px 0px 20px #000;
+    border-radius: 30px;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: rgb(255, 93, 120);
+    cursor: pointer;
+}
+
+#hero-header:hover {
+    background-color:rgb(255, 93, 120);
+    color: lightblue;
+    text-shadow: none;
+} 
+
+.hero {
+    padding: 150px 50px;
+    background: linear-gradient(lightblue, pink); 
+}
+
+/* Styles for the MIDDLE SECTION */
+.middle-section {
+    border: 1px solid rgb(211, 239, 248);
+    background-color: rgb(211, 239, 248);
+    padding: 50px;
+}
+
+/* style to group the 3 columns */
+.img-info {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    padding: 20px 0px;
+    border: 3px solid pink;
+    margin: 0px 20px 30px;
+    border-radius: 50px;
+
+}
+
+.img-box {
+    margin: 20px;
+    padding: 50px;    
+}
+
+/* style for the vertical lines */
+#middle-box {
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+}
+
+
+/* style for GUIDE SECTION */
+.guide-section {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background-color: rgb(78, 170, 170);
+}
+
+/* GUIDE SPAN STYLE */
+.guide-span {
+    border-bottom: 5px solid rgb(219, 18, 52);
+}
+
+/* Style for the guide image box */
+#guide {
+    width: 400px;
+    margin-left: auto;    
+    margin-right: auto;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.guide-main-h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 50px 0px;
+    color: rgb(3, 65, 83);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+#guide-img {
+    border-radius: 50%;
+}
